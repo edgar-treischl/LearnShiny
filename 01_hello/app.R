@@ -13,7 +13,7 @@ ui <- fluidPage(
     sidebarPanel(
       
       # Input: Slider for the number of bins ----
-      sliderInput(inputId = "bins",
+      sliderInput(inputId="bins",
                   label = "Number of bins:",
                   min = 1,
                   max = 50,
